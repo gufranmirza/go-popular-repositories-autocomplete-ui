@@ -11,10 +11,11 @@ const NotFound: React.FC = () => (
       <styles.Image>
         <img alt="" src="/illustrations/404.png" />
       </styles.Image>
-      <Title level={3}> Woops! Page Not Found - 404</Title>
+      <br />
+      <Title level={3}> Woops! Nothing to show :(</Title>
       <Typography.Paragraph>
         {' '}
-        This is not the web page you are looking for
+        Please select a repository from search results to show.
       </Typography.Paragraph>
     </styles.Container>
   </styles.Root>

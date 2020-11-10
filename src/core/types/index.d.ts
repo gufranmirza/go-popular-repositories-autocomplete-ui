@@ -14,3 +14,14 @@ export interface CookieMessage extends IncomingMessage {
 export interface CookiesPageContext extends NextPageContext {
   req: CookieMessage | undefined;
 }
+
+export interface Repository {
+  id: number;
+  full_name: string;
+  name: string;
+  watchers: number;
+  forks: number;
+  language: string;
+  html_url: string;
+  description: string;
+}

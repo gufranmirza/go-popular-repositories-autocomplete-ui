@@ -4,7 +4,7 @@ import * as vars from '@/core/theme/vars';
 export const Root = styled.div`
   padding: ${vars.ApplicationPadding};
   padding-top: 70px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 75px);
 `;
 
 export const Container = styled.div`
